@@ -10,12 +10,10 @@
     <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
-    <!-- Navbar (COMPLETAR: agregar logo, links activos, menú colapsable) -->
     <nav class="navbar navbar-expand-md navbar-dark bg-primary sticky-top">
         <div class="container">
             <a class="navbar-brand fw-bold" href="index.html">Mi Blog</a>
-            <!-- TODO: agregar toggler y nav-items -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" text="Toggle navigation" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -47,21 +45,40 @@
     <main class="py-5">
         <div class="container">
             <h2 class="mb-4">Artículos Recientes</h2>
-
-            <!-- Grid de tarjetas (COMPLETAR: 3+ artículos) -->
             <div class="row">
                 <div class="col-md-4 mb-4">
                     <div class="card h-100 shadow-sm">
-                        <img src="assets/images/article-1.jpg" class="card-img-top" alt="Artículo 1">
+                        <img src="#" class="card-img-top" alt="Artículo 1">
                         <div class="card-body">
-                            <h5 class="card-title">Primer Artículo</h5>
-                            <p class="card-text text-muted">Autor: Tu Nombre</p>
+                            <h5 class="card-title">Filiologia epica medieval</h5>
+                            <p class="card-text text-muted">Autor: Desconocido</p>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
                             <a href="#" class="btn btn-primary btn-sm">Leer más</a>
                         </div>
                     </div>
                 </div>
-                <!-- TODO: agregar 2 más -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="#" class="card-img-top" alt="Artículo 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Tratado sobre la mayeutica aristotélica</h5>
+                            <p class="card-text text-muted">Autor: Inexplicable</p>
+                            <p class="card-text">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+                            <a href="#" class="btn btn-primary btn-sm">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="assets/images/article-3.jpg" class="card-img-top" alt="Artículo 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Epopeyas referentes sobre la integridad Kantiana</h5>
+                            <p class="card-text text-muted">Autor: Desaparecido</p>
+                            <p class="card-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+                            <a href="#" class="btn btn-primary btn-sm">Leer más</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
@@ -69,8 +86,12 @@
     <!-- Footer -->
     <footer class="bg-dark text-white py-4 mt-5">
         <div class="container text-center">
-            <p>&copy; 2026 Mi Blog. Todos los derechos reservados.</p>
-            <!-- TODO: agregar redes sociales -->
+            <p class="mb-3">&copy; 2026 Mi Blog. Todos los derechos reservados.</p>
+            <div class="d-flex justify-content-center gap-2">
+                <a href="https://www.facebook.com" target="_blank" rel="noreferrer" class="btn btn-outline-light btn-sm" aria-label="Facebook">Facebook</a>
+                <a href="https://www.twitter.com" target="_blank" rel="noreferrer" class="btn btn-outline-light btn-sm" aria-label="Twitter">Twitter</a>
+                <a href="https://www.instagram.com" target="_blank" rel="noreferrer" class="btn btn-outline-light btn-sm" aria-label="Instagram">Instagram</a>
+            </div>
         </div>
     </footer>
 
